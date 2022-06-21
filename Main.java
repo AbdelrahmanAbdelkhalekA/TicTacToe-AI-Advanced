@@ -4,7 +4,7 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
-        GIu y = new GIu();
+        TicTacToeIN y = new TicTacToeIN();
         y.d();
     }
 }
