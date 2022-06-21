@@ -6,7 +6,7 @@ import java.awt.event.*;
 import java.util.Objects;
 import java.util.Random;
 
-public class GIu implements ActionListener {
+public class TicTacToeIN implements ActionListener {
     boolean Playerturn, computer, t = true, over = true;
 
     int number = 0;
@@ -95,7 +95,7 @@ public class GIu implements ActionListener {
         frame.dispose();
         if (which == 0) {
             over = false;
-            new GIu().d();
+            new TicTacToeIN().d();
         }
     }
 
