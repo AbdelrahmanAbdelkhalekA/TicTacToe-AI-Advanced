@@ -148,13 +148,10 @@ public class TicTacToeIN implements ActionListener {
             WinnerO(3, 4, 5);
         } else if ((jButton[6].getText() == "O") && (jButton[7].getText() == "O") && (jButton[8].getText() == "O")) {
             WinnerO(6, 7, 8);
-        }
-
-        if (number == 9) {
+        } else if {
+             if (number == 9) {
             textfield.setText("Draw!");
-            if (over) {
-                gameover();
-            }
+                 gameover();
         }
     }
 
