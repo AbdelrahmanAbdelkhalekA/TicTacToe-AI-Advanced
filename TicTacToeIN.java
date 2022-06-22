@@ -20,7 +20,7 @@ public class TicTacToeIN implements ActionListener {
     JButton[] jButton = new JButton[9];
     JLabel textfield = new JLabel();
     Random random = new Random();
-    void d() {
+    void InterfaceSetup() {
         //Clicklistener
         //
         //  = new Clicklistener();
@@ -95,7 +95,7 @@ public class TicTacToeIN implements ActionListener {
         frame.dispose();
         if (which == 0) {
             over = false;
-            new TicTacToeIN().d();
+            new TicTacToeIN().InterfaceSetup();
         }
     }
 
